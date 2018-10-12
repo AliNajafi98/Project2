@@ -1,0 +1,195 @@
+
+.normalLink{
+  text-decoration: none;
+  color:#21a2ff;
+  font-family: Time New Roamn,Arial;
+  font-size: 10pt;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.normalLink:hover{
+  font-size: 12pt;
+}
+input{
+  width: 300px;
+  margin-bottom: 15px;
+  height: 40px;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 12pt;
+  padding-left: 8px;
+}
+.Form{
+  display: inline-block;
+  margin-left:650px;
+  margin-top: 120px;
+
+}
+.Header{
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+#titel{
+  border-radius: 20%;
+  font-family: Gabriola,Arial;
+  color: rgb(255,255,255);
+  font-size: 25pt;
+  background-color: #0e81f4
+}
+#btn{
+  font-family: Arial;
+  font-size: 12pt;
+  background-color: #0e81f4;
+  color: #ffffff
+}
+#btn:hover{
+  cursor: pointer;
+  background-color: #0066af;
+  opacity: 1;
+
+
+}
+.username{
+  border-left: 8px solid #0062c4;
+  float: left;
+
+}
+.username-error{
+  float: left;
+  border: 2px solid #ca001c;
+  border-left: 8px solid #ca001c;
+}
+.pass{
+  border-left: 8px solid #0062c4;
+  float: left;
+}
+.username:hover{
+  border:3px solid #66bfff;
+  float: left;
+}
+.username:focus{
+  border:3px solid #66bfff;
+
+
+}
+.pass:hover{
+  border:3px solid #66bfff;
+
+}
+.pass:focus{
+  border:3px solid #66bfff;
+
+}
+.fa-user{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#Links{
+  padding-top: 30px;
+  padding-right: 50px;
+  align-content: center;
+  text-align: center;
+}
+#mainform{
+
+  margin-left: -70px;
+  border: 3px dotted #b5daff;
+  width: 450px;
+  height: 380px;
+  border-radius: 20%;
+  padding-left: 72px;
+  padding-top: 60px;
+}
+.email{
+  border-left: 8px solid #0062c4;
+}
+
+.email:hover{
+  border:3px solid #66bfff;
+
+}
+.email:focus{
+  border:3px solid #66bfff;
+}
+hr{
+  width: 300px;
+  border-radius: 50%;
+  margin-left: 0px;
+  color: rgb(100,100,100);
+}
+#vistmypagelink{
+  margin-left: 60px;
+}
+.menueIcon{
+  font-size: 15pt;
+}
+.menueItem{
+  font-size: 12pt;
+}
+
+.Footerpragraph{
+  font-size: 8pt;
+  color: #ffffff;
+}
+.contentHeader{
+  text-align: center;
+  color: #878787
+
+}
+.mainText{
+  text-align: center;
+  font-size: 10pt;
+  color: #565656
+
+}
+img{
+  width: 800px;
+  height: 800px;
+}
+.Footer{
+  position: initial;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    border: 5px dotted #0089c4;
+    color: #0089c4;
+    width: 800px;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.inlining{
+  font-size: 0;
+  display: inline-block;
+}
+.HomeLinks{
+  font-size: 12pt;
+}
+.image1{
+  width: 500px;
+  height: 700px;
+}
+.image1:hover{
+  background-color: #848587;
+  cursor: pointer;
+}
+
+#footerHR{
+  width: 791px;
+  border-radius: 60%;
+
+}
+
+.warningText{
+  color: red;
+  font-family: Arial;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14pt;
+  text-align: center;
+  position: static;
+}
