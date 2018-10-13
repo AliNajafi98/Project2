@@ -1,8 +1,10 @@
 import React,{Component} from "react";
+import React_dom from 'react-dom';
 import { Link } from 'react-router';
 import Header from "./Header";
 import axios from 'axios';
 import{Request,AxiosProvider,Post} from 'react-axios';
+
  export default class SignUp extends Component{
   render(){
     return(
@@ -67,7 +69,8 @@ class Forms extends Component{
       <div className="Form">
           <form  id="mainform" onSubmit={this.HandelSignUp.bind(this)}>
             <input className="username" id="username" placeholder="UserName"
-                type="text" autoComplete="off" name="username" ref="username" onChange={this.HandelOnChange.bind(this)}/>
+                type="text" autoComplete="off" name="username" ref="username"
+                onChange={this.HandelOnChange.bind(this)}/>
             <br/>
             <input className="email" id="email" placeholder="Email" type="email"
                 name="email" ref="email" onChange={this.HandelOnChange.bind(this)} />
@@ -81,8 +84,7 @@ class Forms extends Component{
             <br/>
             <hr/>
             <br/>
-              <Link className="normalLink" id="vistmypagelink" to="/Home">
-                  Visit my page Without SignUp</Link>
+              <Link className="normalLink" id="vistmypagelink" to="/Home"></Link>
             </nav>
           </form>
       </div>
@@ -91,12 +93,5 @@ class Forms extends Component{
   }
 
   }
-// class owinfo extends Component{
-//   render(){
-//     return(
-//       <div>
-//
-//       </div>
-//     );
-//   }
-// }
+
+React_dom.render(<SignUp/>,document.getElementById('app'));

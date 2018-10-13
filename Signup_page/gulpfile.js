@@ -11,7 +11,7 @@ var uglify = require('gulp-uglify');
 
 
 gulp.task('browserify' , function(){
-  return browserify('./scripts/App.js')
+  return browserify('./scripts/SignUp.js')
         .transform(babelify , {presets: ["es2015", "react"]})
         .bundle()
         .on('error' , function(e) {
